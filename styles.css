@@ -1,0 +1,20 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+#video-container {
+  display: flex;
+  flex-direction: column;
+}
+
+video {
+  width: 90%;
+  max-width: 500px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
